@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use RealRashid\SweetAlert\Facades\Alert;
 
-class RiwayatjabatanfController extends Controller
+class RiwayatJabatanfController extends Controller
 {
     public function tambah(Request $request){
-        $jabatanf = new \App\Riwayatjabatanf;  
+        $jabatanf = new \App\Riwayatjabatanf;
         $jabatanf->id_peg = $request->id_peg;
         $jabatanf->kode_jbtf = $request->kode_jbtf;
         $jabatanf->no_sk = $request->no_sk;
@@ -61,9 +61,9 @@ class RiwayatjabatanfController extends Controller
     {
     // menghapus data pegawai berdasarkan id yang dipilih
     DB::table('riwayat_jabatanfungsional')->where('id_jabatanf',$id)->delete();
-    
+
     Alert::success('Sukses Hapus', 'Data berhasil dihapus');
-        
+
     // alihkan halaman ke halaman pegawai
     return redirect("/pegawai/profile/$request->id_peg");
     }
