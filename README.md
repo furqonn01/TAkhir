@@ -15,21 +15,6 @@ php artisan migrate
 php artisan serve
 ```
 
-## Screenshot
-![simpeg](https://user-images.githubusercontent.com/45083824/71324353-82a86580-2510-11ea-900f-f20e14a285be.png)
----
-![simpeg2](https://user-images.githubusercontent.com/45083824/71324354-82a86580-2510-11ea-91a8-0a4596608e3b.png)
----
-![simpeg3](https://user-images.githubusercontent.com/45083824/71324355-82a86580-2510-11ea-84b6-a9fc1c4031d5.png)
----
-![simpeg4](https://user-images.githubusercontent.com/45083824/71324356-8340fc00-2510-11ea-8919-a2500dc43f65.png)
----
-![simpeg5](https://user-images.githubusercontent.com/45083824/71324357-8340fc00-2510-11ea-9348-ad4d863fe591.png)
----
-![simpeg6](https://user-images.githubusercontent.com/45083824/71324358-83d99280-2510-11ea-8f74-42824f55ce13.png)
----
-![simpeg7](https://user-images.githubusercontent.com/45083824/71324728-357ac280-2515-11ea-9ea6-7b43490e7460.png)
-
 
 ## About Laravel
 
